@@ -1,0 +1,14 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+} 
+
+h1 {
+    color: rgb(25, 25, 114);
+    font-size: 60px;
+    
+}
+h1::first-letter {
+    color: rgb(179, 20, 144);
+}

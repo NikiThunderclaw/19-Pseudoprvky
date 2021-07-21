@@ -1,0 +1,39 @@
+h1 {
+    color: brown;
+    text-align: center;
+}
+
+h1::before {
+    content: '"';
+    color: black;
+}
+h1::after {
+    content: '"';
+    color: black;
+
+}
+h2::before {
+    content: '';
+    width: 0;
+    height: 0;
+    display: inline-block;
+    border-top: 15px solid transparent;
+    border-left: 20px solid red;
+    border-bottom: 15px solid transparent;
+    position: relative;
+    top: 5px;
+    left: 50px;
+    margin-right: 10px;
+    opacity: 0.5;
+}
+
+.email::before {
+    content: 'nikola.kabatova@gmail.com';
+}
+
+p::first-letter {
+    color: magenta;
+    font-weight: bold;
+    font-size: xx-large;
+
+}
