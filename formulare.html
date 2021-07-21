@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="formulare.css">
+</head>
+<body>
+
+    <h1> Sběr dat</h1>
+
+    <form action="http://formular.itgirls.cz/">
+    
+
+            <label>
+                Jméno:
+                <input name="Jmeno">
+            </label>
+
+            <label>
+                Příjmení:
+                <input name="Prijmeni">
+            </label>
+            
+            <label>
+                Datum narození:
+                <input type="date" name="Datum">
+            </label>
+
+            <label>
+                E-mail:
+                <input type="email" name="email">
+            </label>
+
+            <label>
+                Telefon:
+                <input type="tel" name="telefon">
+            </label>
+
+            <label>
+                Oblíbená barva:
+                <input type="color" name="barva">
+            </label>
+
+            <label>
+                Oblíbené číslo:
+                <input type="number" name="cislo">
+            </label>
+
+            <label>
+                Nejčastěji navštívený web:
+                <input type="url" name="web">
+            </label>
+
+            <label>Nejoblíbenější roční období:</label>
+
+            <label>
+            <input type="radio" name="rocni_obdobi" value="jaro">
+            Jaro
+            </label>
+
+            <label>
+            <input type="radio" name="rocni_obdobi" value="leto">
+            Léto
+            </label>
+
+            <label>
+            <input type="radio" name="rocni_obdobi" value="podzim">
+            Podzim
+            </label>
+
+            <label>
+                <input type="radio" name="rocni_obdobi" value="zima">
+                Zima
+            </label>
+
+            <label>Nejoblíbenější měsíc
+                <select name="mesic">
+                    <option>Leden</option>
+                    <option>Únor</option>
+                    <option>Březen</option>
+                    <option>Duben</option>
+                    <option>Květen</option>
+                    <option>Červen</option>
+                    <option>Červenec</option>
+                    <option>Srpen</option>
+                    <option>Září</option>
+                    <option>Říjen</option>
+                    <option>Listopad</option>
+                    <option>Prosinec</option>
+                </select>
+            </label>
+
+            <label>
+                <input type="checkbox" checked name="potvrzeni"> Všechny výše uvedené údaje jsou pravdivé:
+            </label>
+        <button>Odeslat</button>
+    </form>
+
+</body>
+</html>
